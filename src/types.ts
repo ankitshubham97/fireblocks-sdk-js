@@ -1780,7 +1780,9 @@ export interface Audit {
     createdAt?: string;
     subject?: string;
     event?: string;
+    eventKey?: string;
     user?: string;
+    userId?: string;
     email?: string;
     txId?: string;
     amount?: string;
